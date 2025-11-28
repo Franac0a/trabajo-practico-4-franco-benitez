@@ -1,6 +1,4 @@
-"use strict";
 // a) Tipo literal
-Object.defineProperty(exports, "__esModule", { value: true });
 let orderStatus;
 orderStatus = "shipped";
 // b) Enum
@@ -16,4 +14,5 @@ function logMessage(level, message) {
 logMessage(LogLevel.Info, "Mensaje informativo");
 logMessage(LogLevel.Warning, "Mensaje de alerta");
 logMessage(LogLevel.Error, "Mensaje de error");
+export {};
 //# sourceMappingURL=tercera_consigna.js.map

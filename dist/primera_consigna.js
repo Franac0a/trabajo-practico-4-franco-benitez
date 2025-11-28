@@ -1,6 +1,4 @@
-"use strict";
 // Tipos Fundamentales
-Object.defineProperty(exports, "__esModule", { value: true });
 let productName = "Fernet Branca";
 let productPrice = 9999.99;
 // Tipo Unión
@@ -12,4 +10,5 @@ let myProduct = {
     price: 3500,
 };
 console.log("Producto:", myProduct);
+export {};
 //# sourceMappingURL=primera_consigna.js.map
